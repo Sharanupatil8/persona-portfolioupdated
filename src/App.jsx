@@ -7,7 +7,7 @@ import Tech from "./Components/Tech";
 
 import Feedbacks from "./Components/Feedbacks";
 import Contact from "./Components/Contact";
-
+import AnimatedCursor from "react-animated-cursor";
 import Works from "./Components/Works";
 
 // import {
@@ -27,6 +27,26 @@ import Works from "./Components/Works";
 function App() {
   return (
     <BrowserRouter>
+      <AnimatedCursor
+        innerSize={18}
+        outerSize={18}
+        color="255, 255, 255"
+        outerScale={8}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".link",
+        ]}
+      />
+
       <div className="relative z-0 bg-primary">
         <div className="  bg-center bg-cover bg-hero-pattern bg-no-repeat">
           <Navbar />
