@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`${style.paddingX} py-5 w-full bg-primary flex items-center justify-between fixed top-0 z-10`}
+      className={`${style.paddingX} py-5 w-full bg-transparent  backdrop-blur flex items-center justify-between fixed top-0 z-10`}
     >
       <div className="w-full max-w-7xl mx-auto flex items-center justify-between">
         <Link
@@ -25,9 +25,9 @@ function Navbar() {
         >
           <img src={logo} className="w-9 h-9 object-contain" alt="Logo " />
           <p className="text-white font-bold text-[18px] cursor-pointer">
-            Sharan
+            Sharp
             <span className="hidden sm:inline-block ps-0 sm:ps-2">
-              | Web Developer
+              | Digital Agency
             </span>
           </p>
         </Link>
@@ -69,7 +69,7 @@ function Navbar() {
                     setToggle(!toggle);
                   }}
                 >
-                  <a href={`#${link.title}`}>{link.title}</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
