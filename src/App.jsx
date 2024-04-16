@@ -54,7 +54,7 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Feedbacks />
+
         <Tech />
         <Works />
 
