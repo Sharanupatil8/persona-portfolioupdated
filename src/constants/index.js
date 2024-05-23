@@ -24,6 +24,7 @@ import {
   aksharestates,
   omnifood,
   natours,
+  thewildoasis
 } from "../assets";
 
 export const navLinks = [
@@ -248,6 +249,27 @@ const projects = [
     ],
     image: gcubeinfra,
     source_code_link: "https://gcubeinfra.com/",
+  },
+   {
+    name: "Hotel Management app",
+    description:
+      "This application is designed to manage hotel operations, including sales statistics, cabin management, user management, booking management and authentication",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thewildoasis,
+    source_code_link: "https://the-wild-oasis-i7mu.vercel.app/login",
   },
   {
     name: "Akshar estates",
