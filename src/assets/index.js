@@ -36,6 +36,7 @@ import aksharestates from "./aksharestates.png";
 import omnifood from "./omnifood.png";
 import natours from "./natours.png";
 import hero from "./hero.jpg";
+import thewildoasis from "./thewildoasis.png";
 
 export {
   hero,
@@ -71,6 +72,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  thewildoasis,
 
   supabase,
 };
