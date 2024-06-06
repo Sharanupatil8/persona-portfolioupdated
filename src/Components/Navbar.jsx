@@ -25,9 +25,9 @@ function Navbar() {
         >
           <img src={logo} className="w-9 h-9 object-contain" alt="Logo " />
           <p className="text-white font-bold text-[18px] cursor-pointer">
-            Sharp
+            Sharan P
             <span className="hidden sm:inline-block ps-0 sm:ps-2">
-              | Digital Agency
+              | Web Developer
             </span>
           </p>
         </Link>
