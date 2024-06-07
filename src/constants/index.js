@@ -269,7 +269,7 @@ const projects = [
       },
     ],
     image: thewildoasis,
-    source_code_link: "https://the-wild-oasis-i7mu.vercel.app/login",
+    source_code_link: "https://the-wild-oasis-i7mu.vercel.app/",
   },
   {
     name: "Akshar estates",
