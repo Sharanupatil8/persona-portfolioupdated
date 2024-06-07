@@ -271,6 +271,28 @@ const projects = [
     image: thewildoasis,
     source_code_link: "https://the-wild-oasis-i7mu.vercel.app/",
   },
+    {
+    name: "Nayan Internation Thai Spa",
+    description:
+      "Luxury International Thai spa bangalore",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: natours,
+    source_code_link:
+      "https://nayaninternationalthaispa.com/",
+  },
   {
     name: "Akshar estates",
     description:
