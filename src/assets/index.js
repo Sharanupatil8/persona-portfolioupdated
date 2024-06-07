@@ -37,6 +37,7 @@ import omnifood from "./omnifood.png";
 import natours from "./natours.png";
 import hero from "./hero.jpg";
 import thewildoasis from "./thewildoasis.png";
+import thaispa from "./thaispa.png";
 
 export {
   hero,
@@ -73,6 +74,6 @@ export {
   jobit,
   tripguide,
   thewildoasis,
-
+thaispa,
   supabase,
 };
