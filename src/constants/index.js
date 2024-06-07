@@ -24,7 +24,8 @@ import {
   aksharestates,
   omnifood,
   natours,
-  thewildoasis
+  thewildoasis,
+  thaispa
 } from "../assets";
 
 export const navLinks = [
@@ -289,7 +290,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: natours,
+    image: thaispa,
     source_code_link:
       "https://nayaninternationalthaispa.com/",
   },
