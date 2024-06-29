@@ -25,7 +25,8 @@ import {
   omnifood,
   natours,
   thewildoasis,
-  thaispa
+  thaispa,
+  wildOasisWebsite
 } from "../assets";
 
 export const navLinks = [
@@ -271,6 +272,27 @@ const projects = [
     ],
     image: thewildoasis,
     source_code_link: "https://the-wild-oasis-i7mu.vercel.app/",
+  },
+   {
+    name: "Hotel Booking App",
+    description:
+      "This application is designed to manage to reserve your cabins and authentication  ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wildOasisWebsite,
+    source_code_link: "https://the-wild-oasias-website-sharan.vercel.app/",
   },
     {
     name: "Nayan Internation Thai Spa",
