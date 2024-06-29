@@ -94,6 +94,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+    {
+    name: "Nextjs",
+    icon: docker,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -120,10 +124,7 @@ const technologies = [
     icon: git,
   },
 
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
