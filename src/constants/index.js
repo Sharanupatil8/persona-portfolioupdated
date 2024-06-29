@@ -95,7 +95,7 @@ const technologies = [
     icon: redux,
   },
     {
-    name: "Nextjs",
+    name: "Next.js",
     icon: docker,
   },
   {
