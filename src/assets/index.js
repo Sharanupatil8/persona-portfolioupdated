@@ -38,6 +38,7 @@ import natours from "./natours.png";
 import hero from "./hero.jpg";
 import thewildoasis from "./thewildoasis.png";
 import thaispa from "./thaispa.png";
+import wildOasisWebsite from "./wild-oasis-website.webp";
 
 export {
   hero,
@@ -76,4 +77,5 @@ export {
   thewildoasis,
 thaispa,
   supabase,
+  wildOasisWebsite
 };
